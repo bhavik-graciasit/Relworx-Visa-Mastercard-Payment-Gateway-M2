@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <cardpayment>
+                <active>1</active>
+                <title>Relworx Card Payment</title>
+                <payment_action>Sale</payment_action>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <model>Graciasit\Relworx\Model\CardPayment</model>
+            </cardpayment>
+        </payment>
+    </default>
+</config>
